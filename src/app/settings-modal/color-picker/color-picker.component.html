@@ -1,0 +1,9 @@
+<div class="color-picker-area">
+  <input [colorPicker]="color"
+         [(cpToggle)]="toggle"
+         (colorPickerChange)="onColorChanged($event)"
+         [style.background]="color"/>
+
+  <button (click)="toggle=!toggle;lastColor=color"
+          #ignoredButton></button>
+</div>

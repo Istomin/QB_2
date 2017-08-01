@@ -1,0 +1,98 @@
+.tab-container {
+	color: #000;
+	display: block;
+	margin-bottom: 15px;
+}.logout-link {
+	display: inline-block;
+	vertical-align: top;
+	text-decoration: underline;	margin-bottom: 30px;
+	&:hover,	&:focus {
+		text-decoration: none
+	}}
+tab {
+	border-width: 0 1px 1px;
+	border-style: solid;
+	border-color: #000;
+	padding: 0 25px;
+	font-size: 16px;
+	min-height: 365px;
+	&:after {
+		content: '';
+		display: block;		clear: both;	}
+}
+.tab-col {
+	float: left;
+	width: 50%;
+	padding: 15px;
+	&:first-child {
+		padding-left: 0;
+	}
+	&:last-child {
+		padding-right: 0;
+	}
+	label {
+		font-size: 16px;
+		font-weight: bold;
+		color: #000;
+		display: block;
+		line-height: 22px;
+	}
+	select {
+		margin-bottom: 10px;
+	}
+}
+.group-title {
+	color: #000;
+	display: block;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 22px;
+	padding-bottom: 5px;
+}
+.radio-list {
+	margin: 0 0 10px;
+	padding: 0;
+	list-style: none;
+	li {
+		&:after {
+			content: '';
+			display: block;
+			clear: both;
+		}
+		input {
+			float: left;
+			margin: 4px 7px 0 1px;
+		}
+	}
+	.mark-eta-indent {
+		margin-bottom: 10px;
+	}
+}
+.color-picker-holder {
+  line-height: 15px !important;
+}
+.tab-alerts {
+	input[type=text] {
+		width: 50px;
+		font-size: 16px;
+		line-height: 30px;
+		padding: 0 3px;
+		height: 30px;
+		margin: 0 10px 10px 0;
+	}
+}
+.image-upload {
+	border: none;
+	margin-bottom: 20px;
+	.button {
+		padding: 0 10px;
+		background: gray;
+		color: #000;
+	}
+}
+.file-upload {
+	padding: 0;
+	background: none;}
+.drag-box-message {
+	display: none;
+}

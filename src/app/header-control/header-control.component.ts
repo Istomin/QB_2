@@ -21,7 +21,7 @@ export class HeaderControlComponent implements OnInit, OnDestroy {
   private titleTextColor: string;
   private businessName: string = '';
   private baseApiUrl = GlobalVariable.BASE_API_URL;
-  private imgUrl = 'http://208.17.192.85:6545/api/v2/data2/';
+  private imgUrl = 'http://208.17.192.85:6545/depot/';
   private userSettings: any;
   private imgSrc: any;
   constructor(private settingsService: AppSettingsService, private sanitizer: DomSanitizer, private spiner: SpinnerService) {
